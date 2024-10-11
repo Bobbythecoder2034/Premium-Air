@@ -4,3 +4,20 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
+*{
+    margin: 0;
+}
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 12%;
+    height: 60%;
+    background-color: rgb(96, 129, 207);
+    top: 20%;
+    left: -1px;
+    border-width: 2px;
+    border-color: black;
+}
