@@ -1,0 +1,52 @@
+header{
+    background-color: gray;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+body{
+    background-color: #0C3354;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23402acc' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23030082' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%234f22bf' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2315007b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%235f19b3' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23280074' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%236e11a6' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%233a006d' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%237e089a' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%234d0066' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%238d008d' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%235f005f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+}
+
+.sidebar{
+    
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 12%;
+    height: 60%;
+    background-color: rgb(96, 129, 207);
+    top: 20%;
+    left: -1px;
+    border-width: 2px;
+    border-color: black;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+}
+
+#video1{
+    position: relative;
+    left: 30%;
+    top: 50%;
+}
+
+#cans{
+    position: relative;
+    left: 25%;
+    bottom: 25%;
+}
