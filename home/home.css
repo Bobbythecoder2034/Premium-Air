@@ -31,4 +31,11 @@ background-size: cover;
     background-color: rgb(96, 129, 207);
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer div{
+    width: 10%;
+    align-items: center;
 }
