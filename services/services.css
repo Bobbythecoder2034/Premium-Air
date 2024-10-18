@@ -64,9 +64,6 @@ img{
     padding-right: 10px;
     padding-bottom: 10px;
 }
-div{
-    color: rgb(255, 255, 255);
-}
 div p{
     font-size: x-large;
     padding: 15px;
@@ -79,13 +76,23 @@ h1{
 }
 h2{
     font-size: 50px;
+    padding-left: 10px;
 }
 .floatL{
     float: left;
+}
+.floatR{
+    float: right;
 }
 .paddingL{
     padding-left: 750px;
 }
 li p{
     font-size: small;
+}
+.strawberry{
+    color: rgb(252, 46, 46);
+}
+.classic{
+    color: white;
 }
