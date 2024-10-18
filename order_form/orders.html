@@ -11,10 +11,10 @@
         Premium Air Order Form
     </header>
     <aside class="sidebar">
-        <p><a href="#">Home</a></p>
+        <p><a href="../home/home.html">Home</a></p>
         <p><a href="#">Gallery</a></p>
         <p><a href="#">Services</a></p>
-        <p><a href="#">Forms</a></p>
+        <p><a href="#">Orders</a></p>
     </aside>
     <div class="order_box" id="first">
             <textarea name="user.message" class="address1" cols = "18" rows = "1" placeholder="Full Address"></textarea>
@@ -29,37 +29,54 @@
     </div>
 
     <div class="order_box" id="second">
+        <h3 class="header1">Quantity</h3>
+        <h3 class="header2">Flavors</h3>
+        <h3 class="header3">Delivery Method</h3>
+       
         <ul class="list1">
             <li>
-                
-            </li>
-            <li>
-                
-            </li>
-            <li>
-                
-            </li>
+                    <input type="radio" name="quantity"><span>1 can</span></input>
+                </li>
+                <li>
+                    <input type="radio" name="quantity"><span>2 cans</span></input>
+                </li>
+                <li>
+                    <input type="radio" name="quantity"><span>5 cans</span></input>
+                </li>
+                <li>
+                    <input type="radio" name="quantity"><span>10 cans</span></input>
+                </li>
         </ul>
+
         <ul class="list2">
-            <li>
-                
-            </li>
-            <li>
-                
-            </li>
-            <li>
-                
-            </li>
+                <li>
+                    <input type="checkbox" name="flavors"><span>Classic</span></input>
+                </li>
+                <li>
+                    <input type="checkbox" name="flavors"><span>Strawberry</span></input>
+                </li>
+                <li>
+                    <input type="checkbox" name="flavors"><span>Grape</span></input>
+                </li>
+                <li>
+                    <input type="checkbox" name="flavors"><span>Root Beer</span></input>
+                </li>
+                <li>
+                    <textarea name="comments" placeholder="Specify how many cans have each flavor"></textarea>
+                </li>
         </ul>
         <ul class="list3">
             <li>
-                
+                <input type="radio" name="delivery"><span>Packaged</span></input>
             </li>
             <li>
-                
+                <input type="radio" name="delivery"><span>Crop-dusted over address</span></input>
             </li>
             <li>
-                
+                <input type="radio" name="delivery"><span>Dome Refill</span></input>
+            </li>
+            <li>
+                <input type="radio" name="delivery"><span>Gas Sprinklers</span></input>
             </li>
         </ul>
     </div>

@@ -74,12 +74,13 @@ body{
     #second{
         top: 430px;
         left: 400px;
-        grid-template-columns: 200px 50px 200px 50px 200px;
-        grid-template-rows: 300px;
+        grid-template-columns: 230px 20px 230px 20px 230px;
+        grid-template-rows: 50px 250px;
         grid-template-areas: 
+                            "header1 . header2 . header3"
                             "list1 . list2 . list3";
     }
-    textarea{
+    #first > textarea{
         height: 50px;
         width: 250px;
         padding: 0;
@@ -103,6 +104,7 @@ body{
     }
     ul{
         list-style-type: none;
+        padding: 0px;
     }
     .list1{
         grid-area: list1;
@@ -114,3 +116,22 @@ body{
     .list3{
         grid-area: list3;
     }
+
+    .header1{
+        grid-area: header1;
+    }
+
+    .header2{
+        grid-area: header2;
+    }
+
+    .header3{
+        grid-area: header3;
+    }
+    span{
+        font-size: large;
+        padding-left: 2px;
+        padding-bottom: 2px;
+    }
+
+
