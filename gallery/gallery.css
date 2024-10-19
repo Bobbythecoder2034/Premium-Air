@@ -41,7 +41,7 @@ body{
     padding-top: 100px;
     /* padding-right: 10px; */
     overflow-y: hidden;
-    padding-bottom: 150px;
+    padding-bottom: 175px;
 }
 .empty{
     grid-column: 1/2;
