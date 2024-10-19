@@ -75,10 +75,11 @@ body{
         top: 430px;
         left: 400px;
         grid-template-columns: 230px 20px 230px 20px 230px;
-        grid-template-rows: 50px 250px;
+        grid-template-rows: 50px 200px 50px;
         grid-template-areas: 
                             "header1 . header2 . header3"
-                            "list1 . list2 . list3";
+                            "list1 . list2 . list3"
+                            ". . . . submit";
     }
     #first > textarea{
         height: 50px;
