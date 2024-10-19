@@ -36,38 +36,35 @@ body{
     display: grid;
     grid-template-columns: 15.89% 20% 30% 35.89%;
     gap: 10px;
-    grid-template-rows: 25% 25% 25% 25% 25%;
-    grid-template-areas: "empty video1 video1 cans"
-                         "empty mountain mountain bottles"
-                         "empty swiss swiss bottles";
-                         /* "empty strawberry mountain mountain"; */
-    /* overflow-x: hidden; */
+    grid-template-rows: 20% 25% 25% 30%;
+    overflow-x: hidden;
     
     overflow-y: auto;
 }
 .empty{
-    grid-area: empty;
+    grid-column: 1/2;
+    grid-row: 1/5;
     width: 15vw;
 }
-.video1{
-    /* position: relative;
-    left: 24%;
-    top: 5%; */
-    grid-area: video1;
+.swiss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
 }
 
 .cans{
-    /* position: relative;
-    left: 15%;
-    top: 65%; */
-    grid-area: cans;
+    grid-column: 4/5;
+    grid-row: 1/2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .snow{
-    grid-area: mountain;
+    grid-column: 2/4;
+    grid-row: 2/3;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -93,11 +90,16 @@ button:hover{
 }
 
 .bottles{
-    grid-area: bottles;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
 
-.swiss{
-    grid-area: swiss;
+.video1{
+    grid-column: 2/4;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -105,5 +107,13 @@ button:hover{
 }
 
 .strawberry{
-    grid-area: strawberry;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-content: center;
+    align-items: center;
+}
+
+.flavored{
+    grid-row: 4/5;
+    grid-column: 3/4;
 }
