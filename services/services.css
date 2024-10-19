@@ -27,6 +27,7 @@ body{
     overflow-y: scroll;
     border-radius: 20px;
     scrollbar-color: rgb(42, 42, 42) rgb(96,129,207);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .sidebar{
     position: fixed;
