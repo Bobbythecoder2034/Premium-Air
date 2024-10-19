@@ -39,7 +39,7 @@ body{
     grid-template-rows: 20% 25% 25% 30%;
     overflow-x: hidden;
     padding-top: 100px;
-    padding-right: 10px;
+
     overflow-y: hidden;
 }
 .empty{
@@ -144,4 +144,9 @@ button:hover{
     align-items: center;
     font-size: xx-large;
     font-weight: bolder;
+}
+.sidebar a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
