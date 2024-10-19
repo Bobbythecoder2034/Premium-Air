@@ -39,13 +39,9 @@ body{
     grid-template-rows: 20% 25% 25% 30%;
     overflow-x: hidden;
     padding-top: 100px;
-<<<<<<< Updated upstream
-
-=======
     /* padding-right: 10px; */
->>>>>>> Stashed changes
     overflow-y: hidden;
-    padding-bottom: 120px;
+    padding-bottom: 135px;
 }
 .empty{
     grid-column: 1/2;
@@ -151,16 +147,8 @@ button:hover{
     font-size: xx-large;
     font-weight: bolder;
 }
-<<<<<<< Updated upstream
-.sidebar a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: 600;
-}
-=======
 .stress{
     display: flex;
     justify-content: center;
     align-items: center;
 }
->>>>>>> Stashed changes
