@@ -34,13 +34,18 @@ body{
     width: 100%;
     height: 93vh;
     display: grid;
-    grid-template-columns: 15.89% 20% 30% 35.89%;
+    grid-template-columns: 15.1% 20% 30% 34.9%;
     gap: 10px;
     grid-template-rows: 20% 25% 25% 30%;
     overflow-x: hidden;
     padding-top: 100px;
+<<<<<<< Updated upstream
 
+=======
+    /* padding-right: 10px; */
+>>>>>>> Stashed changes
     overflow-y: hidden;
+    padding-bottom: 120px;
 }
 .empty{
     grid-column: 1/2;
@@ -100,6 +105,7 @@ button:hover{
 }
 
 .video1{
+    grid-row: 4/5;
     grid-column: 2/4;
     display: flex;
     justify-content: space-evenly;
@@ -109,13 +115,13 @@ button:hover{
 
 .strawberry{
     grid-column: 2/3;
-    grid-row: 4/5;
+    grid-row: 3/4;
     justify-content: center;
     align-items: center;
 }
 
-.flavored{
-    grid-row: 4/5;
+.workout{
+    grid-row:3/4;
     grid-column: 3/4;
 }
 .footer{
@@ -145,8 +151,16 @@ button:hover{
     font-size: xx-large;
     font-weight: bolder;
 }
+<<<<<<< Updated upstream
 .sidebar a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
+=======
+.stress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+>>>>>>> Stashed changes
