@@ -20,10 +20,10 @@ body{
 .main{
     background-color: rgba(96, 129, 207, .6);
     width: 80%;
-    height: 80%;
+    height: 70%;
     position: fixed;
-    top: 96px;
-    right: 33px;
+    top: 21%;
+    right: 2%;
     overflow-y: scroll;
     border-radius: 20px;
 }
@@ -91,8 +91,11 @@ li p{
     font-size: small;
 }
 .strawberry{
-    color: rgb(252, 46, 46);
+    color: rgb(251, 123, 123);
 }
 .classic{
     color: white;
+}
+.paddingR{
+    padding-left: 250px;
 }
