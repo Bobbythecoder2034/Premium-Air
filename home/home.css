@@ -57,6 +57,7 @@ background-size: cover;
     position: absolute;
     padding: 20px 20px 0px 20px;
     border-radius: 20px;
+    text-wrap: auto;
 }
 #first{
     top: 120px;
@@ -83,6 +84,15 @@ background-size: cover;
     height: 600px;
     display: flex;
     justify-content: center;
+    font-size: x-large;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.description{
+    font-size: large;
+    text-wrap: auto;
 }
 .center{
     position: absolute;
@@ -101,6 +111,7 @@ background-size: cover;
     font-family: "Agdasima", sans-serif;
     font-weight: 700;
     font-style: normal;
+<<<<<<< Updated upstream
   }
 
   .search{
@@ -123,3 +134,6 @@ background-size: cover;
   
 
   
+=======
+  }
+>>>>>>> Stashed changes
